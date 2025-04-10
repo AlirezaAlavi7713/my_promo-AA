@@ -117,5 +117,13 @@ background-image: linear-gradient(65deg, #C51111FF 0%, #71C4FFFF 100%);
         overflow-y: scroll;
         padding-bottom: 3rem;
       }
+      article:focus .initial {
+        opacity: 0;
+      }
+      
+      article:focus .full-name {
+        opacity: 1;
+      }
+      
     }
     
